@@ -127,40 +127,61 @@ export default function LandingPage() {
             <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
             <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
           </div>
-          <a href="#cta" className="bg-blue-500 hover:bg-blue-400 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors">
-            Book a Demo
+          <a href="#cta" className="bg-white text-[#06090f] text-sm font-semibold px-5 py-2.5 rounded-lg transition-all hover:shadow-[0_0_30px_rgba(255,255,255,0.15)]">
+            Book a Strategy Call
           </a>
         </div>
       </nav>
 
       {/* ─── HERO ─── */}
-      <section id="hero" className="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
-        {/* Gradient orb */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-blue-500/8 rounded-full blur-[120px] pointer-events-none" />
-        <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold px-4 py-1.5 rounded-full mb-8 uppercase tracking-wider">
-            <span className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" />
-            Autonomous AI Workforce
+      <section id="hero" className="relative pt-36 pb-24 md:pt-52 md:pb-40 overflow-hidden">
+        {/* Ambient glow */}
+        <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[1000px] h-[800px] bg-gradient-to-b from-blue-600/[0.07] via-blue-500/[0.04] to-transparent rounded-full blur-[150px] pointer-events-none" />
+        <div className="absolute top-[100px] right-[-200px] w-[500px] h-[500px] bg-cyan-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
+        
+        <div className="relative max-w-5xl mx-auto px-6 text-center">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2.5 bg-white/[0.04] border border-white/[0.08] text-slate-400 text-[11px] font-medium px-5 py-2 rounded-full mb-10 tracking-[0.15em] uppercase">
+            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
+            Now deploying autonomous AI workforces
           </div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.08] mb-6">
-            Your Business Is Running Itself.{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-              You Just Don&apos;t Know It Yet.
+
+          {/* Headline */}
+          <h1 className="text-[2.75rem] md:text-[4.5rem] lg:text-[5.5rem] font-bold tracking-[-0.035em] leading-[1.05] mb-8">
+            <span className="block text-white">We Build the AI.</span>
+            <span className="block bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-300 bg-clip-text text-transparent">
+              It Runs Your Business.
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-4 leading-relaxed">
-            BlueDawg deploys an autonomous AI workforce that handles your customers, creates your content, manages your operations, and closes your deals 24/7. Our clients cut operational costs by 40-60% and reclaim 80+ hours per week of human talent for high-value work. All without learning a single prompt.
+
+          {/* Subhead */}
+          <p className="text-lg md:text-[1.35rem] text-slate-400 max-w-2xl mx-auto mb-12 leading-[1.7] font-light">
+            BlueDawg deploys a custom AI workforce across your entire operation. Sales, support, content, ops. Your team stops doing $30/hr work and starts doing $300/hr work.
           </p>
-          <p className="text-sm text-slate-500 mb-10">
-            No prompts. No babysitting. No "AI tools" you have to learn. Just results showing up in your inbox every morning.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#cta" className="bg-blue-500 hover:bg-blue-400 text-white font-semibold px-8 py-4 rounded-xl text-base transition-all hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]">
-              See It In Action →
+
+          {/* CTA group */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+            <a href="#cta" className="group relative bg-white text-[#06090f] font-semibold px-10 py-4.5 rounded-xl text-[15px] transition-all hover:shadow-[0_0_60px_rgba(59,130,246,0.25)] overflow-hidden">
+              <span className="relative z-10">Book a Strategy Call</span>
             </a>
-            <a href="#how" className="text-slate-400 hover:text-white font-medium px-8 py-4 text-base transition-colors">
-              Learn How It Works
+            <a href="#how" className="text-slate-500 hover:text-white font-medium px-8 py-4 text-[15px] transition-colors tracking-wide">
+              See How It Works
             </a>
+          </div>
+
+          {/* Social proof line */}
+          <div className="flex items-center justify-center gap-8 text-[13px] text-slate-600">
+            <span className="flex items-center gap-2">
+              <span className="text-slate-500 font-semibold">20+</span> AI systems deployed
+            </span>
+            <span className="w-px h-4 bg-white/10" />
+            <span className="flex items-center gap-2">
+              <span className="text-slate-500 font-semibold">100+</span> businesses powered
+            </span>
+            <span className="hidden sm:block w-px h-4 bg-white/10" />
+            <span className="hidden sm:flex items-center gap-2">
+              <span className="text-slate-500 font-semibold">6-month</span> ROI guarantee
+            </span>
           </div>
         </div>
       </section>
@@ -420,7 +441,7 @@ export default function LandingPage() {
           <div className="mt-8 text-center">
             <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-sm font-semibold px-6 py-3 rounded-xl">
               <span>⚡</span>
-              We onboard a maximum of 5 new clients per month. Each deployment requires hands-on configuration by our senior team. <strong>February: 2 spots remaining.</strong>
+              We onboard a maximum of 5 new clients per month. Each deployment requires hands-on configuration by our senior team. <strong>March: 3 spots remaining.</strong>
             </div>
           </div>
         </div>
