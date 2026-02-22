@@ -149,7 +149,7 @@ export default function LandingPage() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-4 leading-relaxed">
-            BlueDawg deploys an autonomous AI workforce that operates your business 24/7 — handling customers, creating content, managing operations, and closing deals while you focus on what actually matters.
+            BlueDawg deploys an autonomous AI workforce that works like a dawg so you don&apos;t have to — handling customers, creating content, managing operations, and closing deals 24/7 while you focus on what actually matters.
           </p>
           <p className="text-sm text-slate-500 mb-10">
             No prompts. No babysitting. No "AI tools" you have to learn. Just results showing up in your inbox every morning.
@@ -181,7 +181,8 @@ export default function LandingPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
               You&apos;re Paying 47 People to Do What{" "}
-              <span className="text-red-400">3 AI Agents</span> Handle Before Breakfast
+              <span className="text-red-400">3 AI Agents</span> Handle Before Breakfast.{" "}
+              <span className="text-slate-500 text-2xl md:text-3xl font-medium block mt-2">Your business deserves a best friend. Not more headcount.</span>
             </h2>
             <p className="text-slate-400 text-base">Every day your business bleeds money on:</p>
           </div>
@@ -237,7 +238,7 @@ export default function LandingPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
               One AI Parent. Unlimited Workers.{" "}
-              <span className="text-blue-400">Zero Micromanagement.</span>
+              <span className="text-blue-400">Trained to Serve You.</span>
             </h2>
           </div>
           <div className="space-y-12">
@@ -251,10 +252,11 @@ export default function LandingPage() {
       {/* ─── FEATURES TABLE ─── */}
       <section id="features" className="py-20 md:py-28 bg-white/[0.01]">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-center mb-14">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-center mb-4">
             Everything You Wish Your Team Did{" "}
             <span className="text-blue-400">Without Being Asked</span>
           </h2>
+          <p className="text-center text-slate-500 text-sm mb-14">Loyal. Relentless. Never sleeps. Man&apos;s best friend wasn&apos;t a person. It was BlueDawg.</p>
           <div>
             <FeatureRow icon="💬" title="Customer Experience" does="Respond to every inquiry in under 60 seconds, 24/7. Handle returns, complaints, and upsells in your brand voice." stops="Hiring night-shift support reps. Apologizing for slow response times." />
             <FeatureRow icon="✍️" title="Content & Social" does="Write, schedule, and publish content across every platform. Repurpose one video into 15 pieces of content." stops="Begging your team to post consistently. Paying agencies $8K/mo for mediocre output." />
@@ -385,7 +387,7 @@ export default function LandingPage() {
           <div className="mt-8 text-center">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold px-5 py-2 rounded-full">
               <span>🛡️</span>
-              Results Guarantee — No measurable ROI in 6 months? We optimize free for another 6.
+              Loyal to Results — No measurable ROI in 6 months? We optimize free for another 6. That&apos;s the BlueDawg promise.
             </div>
           </div>
         </div>
@@ -414,8 +416,8 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-blue-500/[0.04] to-transparent pointer-events-none" />
         <div className="relative max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">
-            Your AI Workforce Is Ready.{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Are You?</span>
+            Your AI Workforce Is Ready to{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Work Like a Dawg.</span>
           </h2>
           <p className="text-slate-400 text-base mb-10 max-w-xl mx-auto leading-relaxed">
             Your competitors are deploying autonomous AI right now. They&apos;re cutting costs, accelerating growth, and operating 24/7. Deploy BlueDawg and wake up tomorrow to a business that runs itself.
@@ -439,7 +441,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <span className="text-lg font-bold"><span className="text-blue-400">Blue</span>Dawg</span>
-            <p className="text-xs text-slate-600 mt-1">Your business is already running. You just haven&apos;t turned it on yet.</p>
+            <p className="text-xs text-slate-600 mt-1">Every business deserves a best friend. Yours just learned to code.</p>
           </div>
           <div className="text-xs text-slate-600">
             A LeadCatcher company. Built in Detroit. Deployed everywhere. © {new Date().getFullYear()}
