@@ -149,7 +149,7 @@ export default function LandingPage() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-4 leading-relaxed">
-            BlueDawg deploys an autonomous AI workforce that works like a dawg so you don&apos;t have to — handling customers, creating content, managing operations, and closing deals 24/7 while you focus on what actually matters.
+            BlueDawg deploys an autonomous AI workforce that handles your customers, creates your content, manages your operations, and closes your deals 24/7. Our clients cut operational costs by 40-60% and reclaim 80+ hours per week of human talent for high-value work. All without learning a single prompt.
           </p>
           <p className="text-sm text-slate-500 mb-10">
             No prompts. No babysitting. No "AI tools" you have to learn. Just results showing up in your inbox every morning.
@@ -169,8 +169,8 @@ export default function LandingPage() {
       <section className="border-y border-white/5 bg-white/[0.01]">
         <div className="max-w-5xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           <Stat value="20+" label="AI Systems Deployed" />
-          <Stat value="100+" label="Businesses Running" />
-          <Stat value="<2s" label="Avg Response Time" />
+          <Stat value="100+" label="Businesses Using Our Software" />
+          <Stat value="40-60%" label="Avg Cost Reduction" />
           <Stat value="24/7" label="Autonomous Operation" />
         </div>
       </section>
@@ -349,51 +349,104 @@ export default function LandingPage() {
             <p className="text-slate-500 text-sm">Less than one part-time employee. More impact than an entire department.</p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <PricingCard
-              title="BlueDawg Box"
-              subtitle="For creators and growing businesses"
-              items={[
-                "Custom AI workforce audit & blueprint",
-                "Purpose-built agent team (content, support, ops)",
-                "Persistent memory & learning system",
-                "Full tool integration (CRM, social, email, calendar)",
-                "Parent AI monitoring & self-optimization",
-                "Dedicated onboarding & configuration",
-                "Monthly performance reviews & agent updates",
-              ]}
-              price="$2K–$3K/mo"
-              note="$5,000 setup · $36,000+ total value"
-              cta="Start Your Audit →"
-            />
-            <PricingCard
-              featured
-              title="BlueDawg Cloud"
-              subtitle="Enterprise-scale autonomous AI"
-              items={[
-                "Everything in Box, plus:",
-                "Deep organizational audit (every dept, every workflow)",
-                "Enterprise agent architecture & custom build",
-                "Multi-location deployment & coordination",
-                "Enterprise security & compliance (SOC 2)",
-                "Dedicated success team & priority support",
-                "Continuous optimization & agent expansion",
-                "Executive intelligence dashboard",
-              ]}
-              price="Custom"
-              note="Typical: $30–50K setup + $5–10K/mo · $128K+ value"
-              cta="Book a Demo →"
-            />
+            <div className="relative rounded-2xl p-8 flex flex-col bg-white/[0.03] border border-white/10">
+              <h3 className="text-2xl font-bold text-white mb-1">BlueDawg Box</h3>
+              <p className="text-sm text-slate-400 mb-6">For creators and growing businesses</p>
+              <div className="space-y-2.5 mb-6 flex-1">
+                {[
+                  ["Custom AI workforce audit & blueprint", "$10,000"],
+                  ["Purpose-built agent team (replaces 2-3 FTEs)", "$150,000/yr"],
+                  ["Persistent memory & learning system", "$5,000"],
+                  ["Full tool integration (CRM, social, email, calendar)", "$8,000"],
+                  ["Parent AI monitoring & self-optimization", "$24,000/yr"],
+                  ["Dedicated onboarding & configuration", "$5,000"],
+                  ["Monthly performance reviews & agent updates", "$12,000/yr"],
+                ].map(([item, val], i) => (
+                  <div key={i} className="flex items-start justify-between gap-3 text-sm">
+                    <span className="flex items-start gap-2 text-slate-300">
+                      <span className="text-blue-400 mt-0.5">✓</span>
+                      <span>{item}</span>
+                    </span>
+                    <span className="text-slate-500 text-xs whitespace-nowrap font-mono">{val}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-blue-500/5 border border-blue-500/10 rounded-lg p-3 mb-5 text-center">
+                <span className="text-xs text-slate-500 line-through">Total value: $214,000+/yr</span>
+                <div className="text-2xl font-bold text-white mt-1">$2K-$3K/mo</div>
+                <div className="text-xs text-blue-400 font-semibold mt-1">$5,000 setup · You pay ~15 cents on the dollar</div>
+              </div>
+              <a href="#cta" className="block text-center py-3.5 rounded-xl font-semibold text-sm transition-all bg-white/10 hover:bg-white/15 text-white">
+                Start Your Audit →
+              </a>
+            </div>
+            <div className="relative rounded-2xl p-8 flex flex-col bg-gradient-to-b from-blue-500/10 to-blue-600/5 border-2 border-blue-500/40">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
+                Most Popular
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-1">BlueDawg Cloud</h3>
+              <p className="text-sm text-slate-400 mb-6">Enterprise-scale autonomous AI</p>
+              <div className="space-y-2.5 mb-6 flex-1">
+                {[
+                  ["Everything in Box, plus:", ""],
+                  ["Deep organizational audit (every dept, every workflow)", "$25,000"],
+                  ["Enterprise agent architecture & custom build", "$50,000"],
+                  ["Multi-location deployment & coordination", "$30,000"],
+                  ["Enterprise security & compliance (SOC 2)", "$15,000"],
+                  ["Dedicated success team & priority support", "$36,000/yr"],
+                  ["Continuous optimization & agent expansion", "$24,000/yr"],
+                  ["Executive intelligence dashboard", "$18,000/yr"],
+                ].map(([item, val], i) => (
+                  <div key={i} className="flex items-start justify-between gap-3 text-sm">
+                    <span className="flex items-start gap-2 text-slate-300">
+                      <span className="text-blue-400 mt-0.5">✓</span>
+                      <span>{item}</span>
+                    </span>
+                    {val && <span className="text-slate-500 text-xs whitespace-nowrap font-mono">{val}</span>}
+                  </div>
+                ))}
+              </div>
+              <div className="bg-blue-500/5 border border-blue-500/10 rounded-lg p-3 mb-5 text-center">
+                <span className="text-xs text-slate-500 line-through">Total value: $412,000+/yr</span>
+                <div className="text-2xl font-bold text-white mt-1">Custom</div>
+                <div className="text-xs text-blue-400 font-semibold mt-1">Typical: $30-50K setup + $5-10K/mo</div>
+              </div>
+              <a href="#cta" className="block text-center py-3.5 rounded-xl font-semibold text-sm transition-all bg-blue-500 hover:bg-blue-400 text-white">
+                Book a Demo →
+              </a>
+            </div>
           </div>
+          {/* Urgency / Scarcity */}
           <div className="mt-8 text-center">
-            <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold px-5 py-2 rounded-full">
-              <span>🛡️</span>
-              Loyal to Results — No measurable ROI in 6 months? We optimize free for another 6. That&apos;s the BlueDawg promise.
+            <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-sm font-semibold px-6 py-3 rounded-xl">
+              <span>⚡</span>
+              We onboard a maximum of 5 new clients per month. Each deployment requires hands-on configuration by our senior team. <strong>February: 2 spots remaining.</strong>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Social proof section - testimonials coming soon */}
+      {/* ─── GUARANTEE ─── */}
+      <section className="py-20 md:py-28 bg-gradient-to-b from-emerald-500/[0.03] to-transparent">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <div className="text-4xl mb-6">🛡️</div>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+            The &ldquo;Work Like a Dawg&rdquo;{" "}
+            <span className="text-emerald-400">Guarantee</span>
+          </h2>
+          <div className="text-[15px] text-slate-400 leading-relaxed space-y-4 max-w-2xl mx-auto mb-8">
+            <p>We don&apos;t hide behind vague promises. Here&apos;s exactly what we guarantee:</p>
+            <p className="text-lg text-white font-semibold">
+              Deploy BlueDawg. Use it for 6 full months. If you can&apos;t point to measurable ROI — reduced costs, increased revenue, time saved, leads converted — we will optimize your entire AI workforce for free for another 6 months until you do.
+            </p>
+            <p>No fine print. No weasel clauses. We win when you win.</p>
+            <p>Why can we guarantee this? Because we&apos;ve done it 100+ times. We know what works. And we don&apos;t take clients we can&apos;t help.</p>
+          </div>
+          <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-bold px-6 py-3 rounded-full">
+            🛡️ 6-Month ROI Guarantee — or 6 more months on us.
+          </div>
+        </div>
+      </section>
 
       {/* ─── FAQ ─── */}
       <section id="faq" className="py-20 md:py-28">
