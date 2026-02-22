@@ -368,7 +368,7 @@ export default function LandingPage() {
               ["📅", 'Content calendars that never get executed because your team is "too busy"'],
               ["📞", "Lead follow-up dying on the vine because nobody called back within 5 minutes"],
               ["📊", "Data entry and reporting consuming 20+ hours/week of your best people's time"],
-              ["🔧", "Scheduling, invoicing, inventory — the operational quicksand that buries growth"],
+              ["🔧", "Scheduling, invoicing, inventory. The operational quicksand that buries growth"],
             ].map(([icon, text], i) => (
               <motion.div
                 key={i}
@@ -409,7 +409,7 @@ export default function LandingPage() {
               So we asked a different question: What if AI didn&apos;t need you at all?
             </p>
             <p>
-              BlueDawg isn&apos;t a tool you add to your workflow. <strong className="text-white">BlueDawg IS the workflow.</strong> A parent AI audits your entire business, identifies every process that can be automated, then builds and deploys specialized child agents that handle it — autonomously, permanently, and better every single day.
+              BlueDawg isn&apos;t a tool you add to your workflow. <strong className="text-white">BlueDawg IS the workflow.</strong> A parent AI audits your entire business, identifies every process that can be automated, then builds and deploys specialized child agents that handle it. Autonomously, permanently, and better every single day.
             </p>
           </div>
         </div>
@@ -426,7 +426,7 @@ export default function LandingPage() {
           </div>
           <div className="space-y-6">
             <Step num="01" title="The Audit" desc="BlueDawg's parent AI analyzes your business top to bottom. Every workflow. Every bottleneck. Every wasted hour. You get a complete map of everything costing you money, time, and sanity." />
-            <Step num="02" title="The Build" desc="Based on the audit, BlueDawg self-configures a team of specialized AI agents — each one purpose-built for a specific function in YOUR business. Customer support. Content. Sales. Operations. Each trained on your data, your voice, your processes." />
+            <Step num="02" title="The Build" desc="Based on the audit, BlueDawg self-configures a team of specialized AI agents, each one purpose-built for a specific function in YOUR business. Customer support. Content. Sales. Operations. Each trained on your data, your voice, your processes." />
             <Step num="03" title="The Deploy" desc="Your AI workforce goes live 24/7/365. They learn from every interaction. They get better every week. BlueDawg's parent AI monitors performance, catches errors, and optimizes continuously. You don't manage them. BlueDawg does." />
           </div>
         </div>
@@ -511,7 +511,7 @@ export default function LandingPage() {
               </ul>
               <div className="mt-6 bg-blue-500/5 border border-blue-500/10 rounded-lg p-4 card-glow">
                 <p className="text-xs text-blue-300/70">
-                  <strong className="text-blue-300">The ROI math:</strong> If you&apos;re paying $500K/year in salaries for work AI agents handle better — you&apos;re not saving money. You&apos;re burning it.
+                  <strong className="text-blue-300">The ROI math:</strong> If you&apos;re paying $500K/year in salaries for work AI agents handle better, you&apos;re not saving money. You&apos;re burning it.
                 </p>
               </div>
             </div>
@@ -638,13 +638,13 @@ export default function LandingPage() {
           <div className="text-[15px] text-slate-400 leading-relaxed space-y-4 max-w-2xl mx-auto mb-8 glass rounded-2xl border border-emerald-500/10 p-8 card-glow">
             <p>We don&apos;t hide behind vague promises. Here&apos;s exactly what we guarantee:</p>
             <p className="text-lg text-white font-semibold">
-              Deploy BlueDawg. Use it for 6 full months. If you can&apos;t point to measurable ROI — reduced costs, increased revenue, time saved, leads converted — we will optimize your entire AI workforce for free for another 6 months until you do.
+              Deploy BlueDawg. Use it for 6 full months. If you can&apos;t point to measurable ROI (reduced costs, increased revenue, time saved, leads converted), we will optimize your entire AI workforce for free for another 6 months until you do.
             </p>
             <p>No fine print. No weasel clauses. We win when you win.</p>
             <p>Why can we guarantee this? Because we&apos;ve done it 100+ times. We know what works. And we don&apos;t take clients we can&apos;t help.</p>
           </div>
           <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-bold px-6 py-3 rounded-full card-glow">
-            🛡️ 6-Month ROI Guarantee — or 6 more months on us.
+            🛡️ 6-Month ROI Guarantee. If not, 6 more months on us.
           </div>
         </div>
       </AnimatedSection>
@@ -658,9 +658,9 @@ export default function LandingPage() {
             </h2>
           </div>
           <div className="space-y-3">
-            <FAQItem q="What if AI makes mistakes?" a="BlueDawg's parent AI monitors every agent interaction. Errors are caught, corrected, and learned from in real-time. For high-stakes decisions, you set the guardrails — agents escalate to humans when you want them to. The question isn't whether AI makes mistakes. It's whether AI makes fewer mistakes than your current team at 3am on a Tuesday." />
+            <FAQItem q="What if AI makes mistakes?" a="BlueDawg's parent AI monitors every agent interaction. Errors are caught, corrected, and learned from in real-time. For high-stakes decisions, you set the guardrails. Agents escalate to humans when you want them to. The question isn't whether AI makes mistakes. It's whether AI makes fewer mistakes than your current team at 3am on a Tuesday." />
             <FAQItem q="We already use ChatGPT / other AI tools." a="Great. Those are tools. Someone on your team still has to prompt them, review the output, and do something with it. BlueDawg is a workforce. It prompts itself, reviews itself, and acts on its own. The difference between a power drill and a construction crew." />
-            <FAQItem q="Is our data safe?" a="Your data never trains public models. Enterprise-grade encryption. SOC 2 compliant infrastructure. Role-based access. We take security as seriously as you do — because our enterprise clients demand it." />
+            <FAQItem q="Is our data safe?" a="Your data never trains public models. Enterprise-grade encryption. SOC 2 compliant infrastructure. Role-based access. We take security as seriously as you do, because our enterprise clients demand it." />
             <FAQItem q="How long until we see results?" a="Most clients see their first autonomous workflows running within 2 weeks of deployment. Measurable ROI typically appears within 60-90 days. Our 6-month guarantee means you have zero risk." />
             <FAQItem q="What if we outgrow it?" a="You won't outgrow it. BlueDawg scales with you. Need more agents? They're deployed. New department? New agents. New location? Replicated in days. Your AI workforce grows as fast as your business does." />
           </div>

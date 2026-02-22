@@ -117,7 +117,7 @@ Pull it out of the pricing footer. Give it a full section. Make it impossible to
 ### Rewrite #1: Hero Subhead (Add Specific Outcome)
 
 **Current:**
-> BlueDawg deploys an autonomous AI workforce that works like a dawg so you don't have to — handling customers, creating content, managing operations, and closing deals 24/7 while you focus on what actually matters.
+> BlueDawg deploys an autonomous AI workforce that works like a dawg so you don't have to - handling customers, creating content, managing operations, and closing deals 24/7 while you focus on what actually matters.
 
 **Hormozi Rewrite:**
 > BlueDawg deploys an autonomous AI workforce that handles your customers, creates your content, manages your operations, and closes your deals 24/7. Our clients cut operational costs by 40-60% and reclaim 80+ hours per week of human talent for high-value work. All without learning a single prompt.
@@ -133,8 +133,8 @@ Pull it out of the pricing footer. Give it a full section. Make it impossible to
 
 We don't hide behind vague promises. Here's exactly what we guarantee:
 
-Deploy BlueDawg. Use it for 6 full months. If you can't point to measurable ROI — 
-reduced costs, increased revenue, time saved, leads converted — we will optimize 
+Deploy BlueDawg. Use it for 6 full months. If you can't point to measurable ROI - 
+reduced costs, increased revenue, time saved, leads converted - we will optimize 
 your entire AI workforce for free for another 6 months until you do.
 
 No fine print. No weasel clauses. We win when you win.
@@ -142,7 +142,7 @@ No fine print. No weasel clauses. We win when you win.
 Why can we guarantee this? Because we've done it 100+ times. We know what works. 
 And we don't take clients we can't help.
 
-🛡️ 6-Month ROI Guarantee — or 6 more months on us.
+🛡️ 6-Month ROI Guarantee - or 6 more months on us.
 ```
 
 ### Rewrite #3: Pricing Value Stack (Show the Math)
@@ -182,19 +182,19 @@ Even placeholder-structured for when real data comes in:
 [Case Study Card 1]
 "BlueDawg cut our support response time from 4 hours to 47 seconds. 
 Customer satisfaction went from 72% to 94%. We reassigned 3 support 
-reps to sales — they generated $340K in new revenue last quarter."
-— [Name], [Title], [Company]
+reps to sales - they generated $340K in new revenue last quarter."
+- [Name], [Title], [Company]
 
 [Case Study Card 2]  
 "We were spending $8K/month on a content agency and getting 12 posts. 
 BlueDawg produces 60+ pieces per week in our voice. Engagement is up 
 3x. We canceled the agency."
-— [Name], [Title], [Company]
+- [Name], [Title], [Company]
 
 [Case Study Card 3]
 "Our lead response time went from 'whenever someone remembers' to 
 under 60 seconds. Close rate increased 28% in the first 90 days."
-— [Name], [Title], [Company]
+- [Name], [Title], [Company]
 ```
 
 ### Rewrite #5: Add Scarcity (Under Pricing)

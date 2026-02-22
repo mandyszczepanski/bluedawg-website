@@ -13,9 +13,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const siteUrl = "https://bluedawg.app";
-const siteTitle = "BlueDawg — Your Autonomous AI Workforce";
+const siteTitle = "BlueDawg | Your Autonomous AI Workforce";
 const siteDescription =
-  "Deploy an autonomous AI workforce that operates your business 24/7. Customer support, content, sales, and operations — handled by AI agents that never sleep.";
+  "Deploy an autonomous AI workforce that operates your business 24/7. Customer support, content, sales, and operations, all handled by AI agents that never sleep.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -136,7 +136,7 @@ const structuredData = {
           name: "What if AI makes mistakes?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "BlueDawg's parent AI monitors every agent interaction. Errors are caught, corrected, and learned from in real-time. For high-stakes decisions, you set the guardrails — agents escalate to humans when you want them to.",
+            text: "BlueDawg's parent AI monitors every agent interaction. Errors are caught, corrected, and learned from in real-time. For high-stakes decisions, you set the guardrails. Agents escalate to humans when you want them to.",
           },
         },
         {
